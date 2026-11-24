@@ -1,0 +1,79 @@
+
+EDUCA+PET0083462@SEN588486 UCRT64 ~/REPO
+$ ls
+Logica-Programa/
+
+EDUCA+PET0083462@SEN588486 UCRT64 ~/REPO
+$ git clone https://github.com/AllandersonSilva/Logica-Programa.git
+fatal: destination path 'Logica-Programa' already exists and is not an empty directory.
+
+EDUCA+PET0083462@SEN588486 UCRT64 ~/REPO
+$ ls
+Logica-Programa/
+
+EDUCA+PET0083462@SEN588486 UCRT64 ~/REPO
+$ cd Logica-Programa/
+
+EDUCA+PET0083462@SEN588486 UCRT64 ~/REPO/Logica-Programa (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Aulas VS Code/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+EDUCA+PET0083462@SEN588486 UCRT64 ~/REPO/Logica-Programa (main)
+$ git add .
+
+EDUCA+PET0083462@SEN588486 UCRT64 ~/REPO/Logica-Programa (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Aulas VS Code/Aula_Calculadora.txt
+        new file:   Aulas VS Code/Aula_Custo_Combustivel.txt
+        new file:   Aulas VS Code/Aula_Media_Notas.txt
+
+
+EDUCA+PET0083462@SEN588486 UCRT64 ~/REPO/Logica-Programa (main)
+$ git commit -m"Adicionei_Arquivos"
+[main 1cefabc] Adicionei_Arquivos
+ Committer: Jose Allanderson Farias Da Silva <pet0083462@aluno.firjansenaisesi.com.br>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Aulas VS Code/Aula_Calculadora.txt
+ create mode 100644 Aulas VS Code/Aula_Custo_Combustivel.txt
+ create mode 100644 Aulas VS Code/Aula_Media_Notas.txt
+
+EDUCA+PET0083462@SEN588486 UCRT64 ~/REPO/Logica-Programa (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 448 bytes | 224.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/AllandersonSilva/Logica-Programa.git
+   517c94b..1cefabc  main -> main
+
+EDUCA+PET0083462@SEN588486 UCRT64 ~/REPO/Logica-Programa (main)
+$ https://github.com/AllandersonSilva/Logica-Programa.git^C
+
+EDUCA+PET0083462@SEN588486 UCRT64 ~/REPO/Logica-Programa (main)
+$
